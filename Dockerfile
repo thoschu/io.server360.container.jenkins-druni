@@ -2,6 +2,8 @@ FROM thoschu/jenkins-slave-jdk-maven-git-curl:latest
 
 MAINTAINER thoschulte@gmail.com
 
+LABEL version="1.0.2"
+
 USER root
 
 RUN apt-get update \
